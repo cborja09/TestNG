@@ -33,7 +33,7 @@ public class TestNgExample {
     }
 
     @AfterMethod(alwaysRun = true)
-    public void closeBroswer() {
+    public void closeBrowser() {
         driver.close();
     }
 
