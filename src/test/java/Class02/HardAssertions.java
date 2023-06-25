@@ -52,7 +52,7 @@ public class HardAssertions extends CommonMethods {
 
         //Comparing two strings, which assertion to use
         Assert.assertEquals( actualErrorMessage,expectedErrorMessage);
-        System.out.println("check that assert number 2 is runing or not");
+        System.out.println("check that assert number 2 is running or not");
         //Check if it is displayed
         boolean errorMsgIsDisplayed = errorMsg.isDisplayed();
         Assert.assertTrue(errorMsgIsDisplayed);
